@@ -18,4 +18,6 @@ const features = [
   },
 ];
 
-export { navLinks, features };
+const countries = ["🇺🇸 USA", "🇮🇳 India", "🇨🇦 Canada", "🇬🇧 UK"];
+
+export { navLinks, features, countries };
