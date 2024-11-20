@@ -6,4 +6,16 @@ const navLinks = [
   { label: "Contact", href: "/#contact" },
 ];
 
-export { navLinks };
+const features = [
+  {
+    heading: "Feature 1",
+    text: "Experience the power of text-to-speech conversion with ease.",
+  },
+  { heading: "Feature 2", text: "Support for multiple languages and voices." },
+  {
+    heading: "Feature 3",
+    text: "Seamless integration with your favorite platforms.",
+  },
+];
+
+export { navLinks, features };
