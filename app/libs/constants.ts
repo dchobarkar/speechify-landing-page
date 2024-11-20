@@ -20,4 +20,15 @@ const features = [
 
 const countries = ["🇺🇸 USA", "🇮🇳 India", "🇨🇦 Canada", "🇬🇧 UK"];
 
-export { navLinks, features, countries };
+const testimonials = [
+  {
+    text: "&quot;Speechify has changed the way I consume content. It&apos;s a game changer!&quot;",
+    user: "User A",
+  },
+  {
+    text: "&quot;The best text-to-speech app I&apos;ve ever used. Highly recommend!&quot;",
+    user: "User B",
+  },
+];
+
+export { navLinks, features, countries, testimonials };
