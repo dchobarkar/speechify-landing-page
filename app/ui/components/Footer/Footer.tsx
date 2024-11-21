@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-800 text-white">
+      <div className="container mx-auto px-6 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Company Information */}
         <div>
           <h3 className="font-bold text-xl mb-4">About Speechify</h3>
@@ -80,7 +80,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="text-center mt-8">
+      <div className="text-center py-8">
         <p>&copy; 2024 Speechify. All rights reserved.</p>
       </div>
     </footer>
