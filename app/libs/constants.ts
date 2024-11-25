@@ -18,7 +18,12 @@ const features = [
   },
 ];
 
-const countries = ["🇺🇸 USA", "🇮🇳 India", "🇨🇦 Canada", "🇬🇧 UK"];
+const countries = [
+  { title: "🇺🇸 USA", country_code: "us" },
+  { title: "🇮🇳 India", country_code: "in" },
+  { title: "🇨🇦 Canada", country_code: "ca" },
+  { title: "🇬🇧 UK", country_code: "gb" },
+];
 
 const testimonials = [
   {
