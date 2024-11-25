@@ -2,9 +2,8 @@ type CountryDataType = {
   name: string;
   native: string;
   capital: string;
+  emoji: string;
   currency: string;
-  population: number;
-  continent: string;
   languages: string[];
 };
 
